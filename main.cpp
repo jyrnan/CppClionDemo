@@ -6,6 +6,7 @@
 class Person {
     public:
     Person(std::string name, const int age):name(std::move(name)),age(age){
+        std::cout << "Person " << this->name << " created." << std::endl;
     }
     ~Person()= default;
     void introduce() const {

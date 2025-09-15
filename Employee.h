@@ -10,16 +10,18 @@ using namespace std;
 
 class Employee {
 public:
-    Employee(std::string name, int age);
+    Employee(std::string name, int age, std::string position);
     [[nodiscard]] std::string getName() const {
         sayHello();
         return name;
     };
     static void sayHello();
+    void introduce() const;
     ~Employee();
 private:
     std::string name;
     int age;
+    std::string position;
 };
 
 

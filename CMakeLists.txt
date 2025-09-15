@@ -1,8 +1,9 @@
-cmake_minimum_required(VERSION 4.0)
-project(untitled)
+
+cmake_minimum_required(VERSION 3.16)
+project(CppClionDemo)
+
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled main.cpp
-        Employee.cpp
-        Employee.h)
+
+add_executable(CppClionDemo main.cpp Employee.cpp)

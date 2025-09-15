@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/CppClionDemo.dir/main.cpp.o CMakeFiles/CppClionDemo.dir/Employee.cpp.o -o CppClionDemo 

@@ -1,3 +1,0 @@
-/workspaces/CppClionDemo/CMakeFiles/CppClionDemo.dir
-/workspaces/CppClionDemo/CMakeFiles/edit_cache.dir
-/workspaces/CppClionDemo/CMakeFiles/rebuild_cache.dir
